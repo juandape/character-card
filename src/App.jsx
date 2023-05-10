@@ -1,6 +1,5 @@
 import "./App.css";
 import data from "./assets/data.json";
-// import CharacterCard from "./components/Charactercard";
 import CharList from "./components/CharList";
 
 function App() {
