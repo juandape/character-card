@@ -14,5 +14,5 @@ const CharList = ({ data }) => {
 export default CharList;
 
 CharList.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.array
 };
