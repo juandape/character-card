@@ -1,34 +1,40 @@
+import PropTypes from 'prop-types'
 import "./charactercard.css";
 
+
 const CharacterCard = (props) => {
-    const {} = props
+    const {name, status, species, type, gender, origin, location, image, episode} = props
     
    return  (
   <article className="characterCard">
     <div className="characterImagen">
       <img
-        src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+        src={image}
         alt="Blue Footprint Guy"
       />
     </div>
     <div className="characterContent">
       <div className="section">
-        <h2>Morty Smith</h2>
+        <h2>{name}</h2>
         <span className="status">
           <span className={`status__icon status__alive`}></span>
-          Alive - Human
+          {status} - {species}
         </span>
       </div>
       <div className="section">
-        <span className="text-gray">Last known location:</span>
-        <a href="https://rickandmortyapi.com/api/location/1">Earth</a>
+        <span className="text-gray">Last known location: </span>
+        <a href={location.url}>{location.name}</a>
       </div>
       <div className="section">
         <span className="text-gray">First seen in:</span>
-        <a href="https://rickandmortyapi.com/api/location/20">Earth</a>
+        <a href={origin.url}>{origin.name}</a>
       </div>
     </div>
   </article>
 );
    }
 export default CharacterCard;
+
+// CharacterCard.propTypes ={
+
+// }
