@@ -1,5 +1,10 @@
+*{
+  margin: 0 auto;
+}
+
 .app {
   max-width: 1440px;
+  margin-top: 40px;
 }
 
 .container {
