@@ -35,7 +35,7 @@ CharacterCard.propTypes = {
   name: PropTypes.string.isRequired,
   status: PropTypes.string.isRequired,
   species: PropTypes.string.isRequired,
-  origin: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
+  origin: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
   image: PropTypes.string.isRequired,
 };
