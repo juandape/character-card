@@ -1,9 +1,7 @@
-import './App.css'
+import "./App.css";
 import data from "./assets/data.json";
 // import CharacterCard from "./components/Charactercard";
-import CharList from './components/CharList';
-
-
+import CharList from "./components/CharList";
 
 function App() {
   return (
@@ -12,8 +10,7 @@ function App() {
       <h2>Wubba lubba dub dub!</h2>
 
       <div className="container">
-        <CharList data={data}/>
-        
+        <CharList data={data} />
       </div>
     </div>
   );
