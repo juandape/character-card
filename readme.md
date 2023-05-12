@@ -3,6 +3,8 @@
 
 ## The challenge
 create a Character Card and configure prop types using react
+## Vercel page
+http://character-card-5lf6cjvqs-juandape.vercel.app
 
 ## Screenshot
 ![print screen](./src/assets/print-screen.png)
@@ -20,9 +22,6 @@ I learn and practice how to use prop types library
 Juan David Peña  
 github - @juandape  
 email - juandavidp76@hotmail.com  
-
-## Vercel page
-()
 
 ## Acknowledgments
 Thanks to Make it Real to show me a path to become a better programmer
