@@ -4,7 +4,7 @@
 ## The challenge
 create a Character Card and configure prop types using react
 ## Vercel page
-http://character-card-5lf6cjvqs-juandape.vercel.app
+https://character-card-gamma.vercel.app/
 
 ## Screenshot
 ![print screen](./src/assets/print-screen.png)
