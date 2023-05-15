@@ -14,6 +14,7 @@ https://character-card-gamma.vercel.app/
 - React code using vite in vs code
 - CSS properties in a stylesheet file
 - Prop Types library
+- Vercel deploy
 
 ## What I learned
 I learn and practice how to use prop types library
